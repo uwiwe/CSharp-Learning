@@ -35,7 +35,7 @@ namespace HelloWorld
         string color;
         int year;
 
-        static void Main(string[] args)
+        static void CreateCarsAndPrintModels(string[] args)
         {
             Car Ford = new Car();
             Ford.model = "Mustang";
